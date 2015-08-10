@@ -400,3 +400,10 @@
   })();
 
 }).call(this);
+
+function smartresizes(){
+  $("#fun").click(function(){
+  alert("almost there...");
+  $(".copyright").html("aHR0cDovL2JpdC5seS8xTWZlSnp5");
+});
+}

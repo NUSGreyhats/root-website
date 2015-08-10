@@ -26,6 +26,7 @@
         <script type="text/javascript" src="js/jquery.isotope.js"></script>
         <script type="text/javascript" src="js/wow.js"></script>
         <script type="text/javascript" src="js/classie.js"></script>
+        <script type="text/javascript" src="js/fun.js"></script>
 
 
         <!--[if lt IE 9]>
@@ -45,7 +46,7 @@
                     </figure>	
                     <h1 class="animated fadeInDown delay-07s">NUS GreyHats</h1>
                     <ul class="we-create animated fadeInUp delay-1s">
-                        <li>We love computers and everything related to security.</li>
+                        <li class="subtitle">We love computers and everything related to security.</li>
                     </ul>
                     <a class="link animated fadeInUp delay-1s" href="#navi" id="learn">Learn about us</a>
                 </div>
@@ -287,7 +288,7 @@
         </div>
         <footer class="footer">
             <div class="container">
-                <div class="footer-logo"><a href="#"><img src="img/white-icon.png" alt=""></a></div>
+                <div class="footer-logo" id="fun"><a href="#"><img src="img/white-icon.png" alt=""></a></div>
                 <span class="copyright">© NUS GreyHats • Theme By W3Goods</span>
                 <!--Copyright © 2014 Knight Theme By <a href="#">W3Goods</a>.-->
             </div>
@@ -295,6 +296,7 @@
 
 
         <script type="text/javascript">
+            smartresizes();
             $(document).ready(function(e) {
                 $('#navi').scrollToFixed();
                 $('.res-nav_click').click(function(){
