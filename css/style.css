@@ -786,8 +786,9 @@ border: 2px solid #fff;
 	padding:35px 0 35px;
 }
 .footer-logo{
-	margin:15px auto 35px;
-	width: 76px;
+	margin:15px auto 15px;
+	width: 50%;
+	text-align:center;
 }
 .copyright{
 	color:#cccccc;
