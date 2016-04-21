@@ -207,7 +207,7 @@ color: #fff;
 }
 
 .small-logo{ 
-	padding:0 32px;
+	padding:0 20px;
 }
 .small-logo img{
     width: 70px;
@@ -550,7 +550,7 @@ border: 2px solid #fff;
 	margin-bottom:12px;
 	display:block;
 }
-.team-leader-box:nth-of-type(3n+0){ margin:10px auto;}
+/*.team-leader-box:nth-of-type(3n+0){ margin:10px auto;}*/
 .team-leader{
 	width:auto;
 	height:auto;
@@ -833,6 +833,18 @@ border: 2px solid #fff;
 	max-width: 1140px;
 }
 
+.past-h3{
+	margin:auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.past-h6 {
+	margin-bottom: 20px;
+}
+.past {
+	display:none;
+}
 
 /* Animation Timers
 ---------------------------------*/
