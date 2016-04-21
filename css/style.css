@@ -838,6 +838,9 @@ border: 2px solid #fff;
 	text-align: center;
 	margin-bottom: 10px;
 }
+.past-h6:hover {
+	cursor:pointer;
+}
 
 .past-h6 {
 	margin-bottom: 20px;
